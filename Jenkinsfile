@@ -3,7 +3,7 @@ pipeline {
  stages {
  stage('Clone Repository') {
  steps {
- git 'https://github.com/<your-username>/jenkins-nodejs-demo.git'
+ git 'https://github.com/Quelkonque/jenkins-nodejs-demo.git'
  }
  }
  stage('Install Dependencies') {
